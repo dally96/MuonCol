@@ -16,7 +16,7 @@
 
 <processor name="MyAIDAProcessor" type="AIDAProcessor">
 	<parameter name="Compress" type="int" value="1"/>
-	<parameter name="FileName" type="string" value="JetHistograms"/>
+	<parameter name="FileName" type="string" value="JetHistograms_1"/>
 	<parameter name="FileType" type="string" value="root"/>
 </processor>
 
