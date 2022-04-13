@@ -136,7 +136,7 @@
 
   <global>
     <parameter name="LCIOInputFiles">
-    SimHits_2.slcio
+    SimHits_3.slcio
     </parameter>
     <!-- Limit the number of processed records (run+evt): -->
     <parameter name="MaxRecordNumber" value="-1" />
@@ -155,7 +155,7 @@
 
   <processor name="Output_REC" type="LCIOOutputProcessor">
     <!--   standard output: full reconstruction keep all collections -->
-    <parameter name="LCIOOutputFile" type="string"> Output_REC_2.slcio </parameter>
+    <parameter name="LCIOOutputFile" type="string"> Output_REC_3.slcio </parameter>
     <parameter name="FullSubsetCollections" type="StringVec"> EfficientMCParticles InefficientMCParticles </parameter>
     <parameter name="LCIOWriteMode" type="string" value="WRITE_NEW"/>
     <!--parameter name="SplitFileSizekB" type="int">996147 </parameter-->
